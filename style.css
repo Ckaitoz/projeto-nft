@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+    color: white;
+    max-width: 375px;
+    margin: auto;
+
+}
+section{
+    background-color: hsl(216, 50%, 16%);
+    padding: 25px 30px;
+    border-radius: 10px 10px 0px 0px;
+}
+div{
+    display: flex;
+    
+}
+
+p{
+    text-align: left;
+}
+.nft{
+    width: 310px;
+    height: 310px;
+}
+.moeda{
+    color: hsl(178, 100%, 50%);
+    
+}
+
+.criador{
+    display: flex;
+    border-radius: 0px 0px 10px 10px;
+}
+.avatar{
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
